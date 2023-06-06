@@ -24,5 +24,5 @@ void main() {
   final String? lenghtLimitString = stdin.readLineSync();
   final int lengthLimit = int.parse(lenghtLimitString ?? '1');
   final fibonacciList = fibonacci(initialList, lengthLimit);
-  print('Sequência Fibonacci com $lengthLimit número(s): \n $fibonacciList');
+  print('Sequência Fibonacci com $lengthLimit número(s): \'n $fibonacciList');
 }
